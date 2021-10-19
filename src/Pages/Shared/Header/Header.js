@@ -20,7 +20,7 @@ const Header = () => {
                 alt="React Bootstrap logo"
             />
             </Navbar.Brand>
-            <Navbar.Brand className="fs-4 fw-bold text-sm-start " as={Link} to='/home'>Ibn Sina Hospital Limited</Navbar.Brand>
+            <Navbar.Brand className="fs-3 fw-bold text-sm-start " as={Link} to='/home'>Ibn Sina Hospital Limited</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="fs-6" fill variant="tabs" defaultActiveKey="/home">
