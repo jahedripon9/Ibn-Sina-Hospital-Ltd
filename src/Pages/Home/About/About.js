@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Footer from '../../Shared/Footer/Footer';
 
 const About = () => {
     return (
@@ -23,6 +24,7 @@ const About = () => {
                     </Col>
                 </Row>
             </Container>
+            <Footer></Footer>
         </div>
     );
 };
