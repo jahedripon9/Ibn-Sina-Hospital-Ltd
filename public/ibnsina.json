@@ -1,0 +1,226 @@
+[
+    
+        {
+            "userId": 1,
+            "img": "https://i.ibb.co/WvddQVs/1618728178-Dr-Afzal-Momin.jpg",
+            "id": 1,
+            "consultationTime": "Friday",
+            "name": "DR. AFZAL MOMIN",
+            "degrees": "MBBS, MD(Rheumatology)",
+            "specialization": "Neuro Medicine",
+            "designation": "APLAR Fellow in Rheumatology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 2,
+            "img": "https://i.ibb.co/cLm9Kbc/doc-dummy.jpg",
+            "id": 2,
+            "consultationTime": "Friday",
+            "name": "Dr. Sudeshna Sinha",
+            "degrees": "MBBS",
+            "specialization": "Rheumatology",
+            "designation": "Professor & Head of Department (Cardiology)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 3,
+            "img": "https://i.ibb.co/sqGbDWy/1618730462-Dr-Md-Albabur-Rahman.jpg",
+            "id": 3,
+            "consultationTime": "Friday",
+            "name": "DR. ALBABUR RAHMAN",
+            "degrees": "MBBS",
+            "specialization": "Dermatology",
+            "designation": "APLAR Fellow in Rheumatology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 4,
+            "img": "https://i.ibb.co/sWHGL1n/1618728505-Prof-Dr-Ayesha-Rafiq-Chowdhury.jpg",
+            "id": 4,
+            "consultationTime": "Friday",
+            "name": "DR. AYESHA RAFIQ CHOWDHURY",
+            "degrees": "MBBS",
+            "specialization": "Medicine & Cardiology",
+            "designation": "APLAR Fellow in Rheumatology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 5,
+            "img": "https://i.ibb.co/pvYCFyK/1618728603-Dr-Chowdhury-Foyzur-Rob-Zubayer.jpg",
+            "id": 5,
+            "consultationTime": "Friday",
+            "name": "DR. CHOWDHURY FOYZUR ROB (ZUBAYER)",
+            "degrees": "MBBS",
+            "specialization": "Orthopedic Surgery",
+            "designation": "APLAR Fellow in Rheumatology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 6,
+            "img": "https://i.ibb.co/J5J9JYP/1618728851-Dr-Chowdhury-Mohammad-Walid.jpg",
+            "id": 6,
+            "consultationTime": "Friday",
+            "name": "DR. CHOWDHURY MOHAMMAD WALID",
+            "degrees": "MBBS",
+            "specialization": "Medicine & Cardiology",
+            "designation": "APLAR Fellow in Rheumatology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 7,
+            "img": "https://i.ibb.co/Hn2Ncjv/1618730795-Prof-Dr-Jamila-Khatun.jpg",
+            "id": 7,
+            "consultationTime": "Friday",
+            "name": "DR. JAMILA ALAM",
+            "degrees": "MBBS",
+            "specialization": "Gynecology & Obstetrics",
+            "designation": "APLAR Fellow in Gynecology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 8,
+            "img": "https://i.ibb.co/vVBWjsB/1618730285-Dr-M-Delwar-Hossain.jpg",
+            "id": 8,
+            "consultationTime": "Friday",
+            "name": "DR. DELWAR HOSSAIN",
+            "degrees": "MBBS",
+            "specialization": "Respiratory Medicine",
+            "designation": "APLAR Fellow in Rheumatology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 9,
+            "img": "https://i.ibb.co/q1jjYcv/1618729473-Dr-M-A-SHAHED.jpg",
+            "id": 9,
+            "consultationTime": "Friday",
+            "name": "DR. M. A. Shahed",
+            "degrees": "(BDS,PGT)",
+            "specialization": "Dental",
+            "designation": "APLAR Fellow in Rheumatology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 10,
+            "img": "https://i.ibb.co/pR3cDP4/1618729560-Prof-Dr-Md-Faizul-Islam-Chowdhury.jpg",
+            "id": 10,
+            "consultationTime": "Friday",
+            "name": "PROF. DR. FAIZUL ISLAM CHOWDHURY",
+            "degrees": "MBBS",
+            "specialization": "Medicine & Cardiology",
+            "designation": "Professor, Medicine Unit-3(EX) Dhaka Medical College (DMC).",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 11,
+            "img": "https://i.ibb.co/k2YW8gh/1618730202-Prof-Dr-Guljar-Ahmed.jpg",
+            "id": 11,
+            "consultationTime": "Friday",
+            "name": "PROFESSOR. DR. GULJAR AHMED",
+            "degrees": "MBBS",
+            "specialization": "Medicine & Cardiology",
+            "designation": "Professor, North East Medical College & Hospital Sylhet.",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 12,
+            "img": "https://i.ibb.co/B4bpnTp/1618730497-Dr-M-A-Hai.jpg",
+            "id": 12,
+            "consultationTime": "Friday",
+            "name": "DR. M. A. HAI",
+            "degrees": "MBBS",
+            "specialization": "Pediatric Medicine",
+            "designation": "APLAR Fellow in Rheumatology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 13,
+            "img": "https://i.ibb.co/dLPYY9w/1618981352-Dr-Iqbal-Ahmed-Chow.jpg",
+            "id": 13,
+            "consultationTime": "Friday",
+            "name": "DR. IQBAL AHMED CHOWDHURY",
+            "degrees": "MBBS",
+            "specialization": "Medicine",
+            "designation": "Asst. Prof. M.A.G Osmani Medical College, Sylhet",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 14,
+            "img": "https://i.ibb.co/pWsnhQ6/1618730725-Dr-Jahir-Ahmed.jpg",
+            "id": 14,
+            "consultationTime": "Friday",
+            "name": "DR. JAHIR AHMED",
+            "degrees": "MBBS",
+            "specialization": "General Surgery",
+            "designation": "APLAR Fellow in Rheumatology ",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 15,
+            "img": "https://i.ibb.co/vVWgSS5/1618733164-Dr-Kazi-Abdullah-Al-Mamun.jpg",
+            "id": 15,
+            "consultationTime": "Friday",
+            "name": "DR. KAZI ABDULLAH AL MAMUN",
+            "degrees": "MBBS",
+            "specialization": "Physical Medicine",
+            "designation": "APLAR Fellow in Medicine (US)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 16,
+            "img": "https://i.ibb.co/w7Skw2t/1618733201-Dr-Md-Mahbub-Alam-Jiban.jpg",
+            "id": 16,
+            "consultationTime": "Friday",
+            "name": "DR. MAHBUB ALAM (JIBAN)",
+            "degrees": "MBBS",
+            "specialization": "Cardiology",
+            "designation": "APLAR Fellow in Cardiology (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 17,
+            "img": "https://i.ibb.co/XpKqVnH/1618733266-Dr-Mashiur-Rahman-Majumder.jpg",
+            "id": 17,
+            "consultationTime": "Friday",
+            "name": "DR. MASHIUR RAHMAN MAJUMDER",
+            "degrees": "MBBS",
+            "specialization": "Neuro & Spine Surgery",
+            "designation": "APLAR Fellow in Surgery (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 18,
+            "img": "https://i.ibb.co/RStTpbx/1618981398-Dr-Ashraful-Islam-Sarfin.jpg",
+            "id": 18,
+            "consultationTime": "Friday",
+            "name": "DR. MD.ASHFAQUL ISLAM",
+            "degrees": "MBBS",
+            "specialization": "Medicine",
+            "designation": "MEDICINE",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 19,
+            "img": "https://i.ibb.co/zPgLvpk/1618981697-Dr-Md-Manirul-Islam.jpg",
+            "id": 19,
+            "consultationTime": "Friday",
+            "name": "DR. MONIRUL ISLAM",
+            "degrees": "MBBS",
+            "specialization": "Respiratory Medicine",
+            "designation": "APLAR Fellow in Respiratory (UK)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          },
+        {
+            "userId": 20,
+            "img": "https://i.ibb.co/DwDFV65/1618981814-Prof-DR-Md-Mozammel-Hoque.jpg",
+            "id": 20,
+            "consultationTime": "Friday",
+            "name": "DR. MOZAMMEL HOQUE",
+            "degrees": "MBBS",
+            "specialization": "ENT",
+            "designation": "APLAR Fellow in ENT (BAANGLADESH)",
+            "contactNumber": "+8809636300300 (Get An Appointment)"
+          }
+        
+        
+    
+]
