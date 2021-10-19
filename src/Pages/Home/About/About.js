@@ -24,7 +24,6 @@ const About = () => {
                     </Col>
                 </Row>
             </Container>
-            <Footer></Footer>
         </div>
     );
 };
