@@ -15,10 +15,8 @@ const useFirebase = () =>{
 
     const singinGoogle = ()=> {
     const googleProvider = new GoogleAuthProvider();
-    signInWithPopup(auth, googleProvider)
-    .then(result => {
-        setUser(result.user);
-    });
+    return signInWithPopup(auth, googleProvider);
+    
 
     }
     const logOut = () =>{
@@ -133,6 +131,7 @@ const useFirebase = () =>{
         handlePasswordChange,
         handleEmailChange,
         handleNameChange,
+        
     }
 }
 

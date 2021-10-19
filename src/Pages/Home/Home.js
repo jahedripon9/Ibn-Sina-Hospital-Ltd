@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from '../Shared/Footer/Footer';
-import Header from '../Shared/Header/Header';
 import About from './About/About';
 import Banner from './Carousel/Banner';
 import Consultants from './Consultants/Consultants';
 import ContactUs from './ContactUs/ContactUs';
+import CorporateClients from './CorporateClients/CorporateClients';
 import Services from './Services/Services';
 
 const Home = () => {
@@ -15,6 +15,7 @@ const Home = () => {
             <Consultants></Consultants>
             <About></About>
             <ContactUs></ContactUs>
+            <CorporateClients></CorporateClients>
             <Footer></Footer>
         </div>
     );

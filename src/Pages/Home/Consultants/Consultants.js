@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom";
-import Header from "../../Shared/Header/Header";
 import Consultant from "../Consultant/Consultant";
 import './Consultants.css'
 
@@ -13,7 +12,7 @@ const Consultants = () => {
         .then(data => setConsultants(data));
     },[])
     return(
-        
+       
         <div className="my-5 ">
             <h2>Our Consultants</h2>
             <div className="consultant-container mx-5 mb-4">

@@ -19,21 +19,21 @@ const Services = () => {
                     <Card.Img variant="top" src="https://i.ibb.co/HP9GrQQ/physio-th.jpg" />
                     
                     <Card.Footer>
-                    <button className="btn btn-primary">Physiotherapy & Rehab</button>
+                    <Link to='/physiotherapy'><button className="btn btn-primary">Physiotherapy & Rehab</button></Link>
                     </Card.Footer>
                 </Card>
                 <Card>
                     <Card.Img variant="top" src="https://i.ibb.co/pZXR0gT/dental-care.jpg" />
                     
                     <Card.Footer>
-                    <button className="btn btn-primary">Dental Care</button>
+                    <Link to='/dental'><button className="btn btn-primary">Dental Care</button></Link>
                     </Card.Footer>
                 </Card>
                 <Card>
                     <Card.Img variant="top" src="https://i.ibb.co/5xSVB5S/health-checkup.jpg" />
                     
                     <Card.Footer>
-                    <button className="btn btn-primary">Health Checkup</button>
+                    <Link to='/healthcheckup'><button className="btn btn-primary">Health Checkup</button></Link>
                     </Card.Footer>
                 </Card>
                 </CardGroup>

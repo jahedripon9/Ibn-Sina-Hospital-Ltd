@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import useAuth from '../../../hooks/useAuth';
-import useFirebase from '../../../hooks/useFirebase';
 import Footer from '../../Shared/Footer/Footer';
 
 const UserAppointment = () => {
-    const {singinGoogle, handleNameChange, handleEmailChange, handlePasswordChange, handleRegistration, processLogin, registerNewUser, setUserName, verifyEmail, handleResetPassword, toggleLogin, isLogin, error} = useFirebase();
+    const {singinGoogle, handleNameChange, handleEmailChange, handlePasswordChange, handleRegistration, processLogin, registerNewUser, setUserName, verifyEmail, handleResetPassword, toggleLogin, isLogin, error} = useAuth();
     return (
         <div className="mx-5">
             <form onSubmit={handleRegistration}>
