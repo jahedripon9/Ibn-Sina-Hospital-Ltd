@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className='my-5'>
             <Container className="border-end "> 
-            <h1> <span className='text-decoration-underline'>About</span>  Us</h1> <hr />
+            <h1 className='text-danger'> <span className='text-decoration-underline'>About</span>  Us</h1> <hr />
                 <Row>
                     <Col className="border-end "> 
                             <p className='text-start'>The Ibn Sina Hospital Sylhet Ltd. (A Concern of The Ibn Sina Trust) was established in 10th April 2009, Keeping in Pace with continuous development of medical technologies, Ibn Sina hospital has been rendering its services in the field of Medicine (Internal, Neuro, Nephro, Gastro-liver, Cardiac, Onco, Endocrine etc.), Surgery, Gynae, Neuro surgery, Spine Surgery, colorectal Surgery, Orthopedics Surgery, urology etc. It provides tertiary level of medical care in those fields. Besides it has opened a new horizon in Laparoscopic Abdominal and colorectal Surgery. With affordable cost it gives services to the ever increasing number of kidney patients through its dialysis unit equipped with most modern equipment and backed by a dedicated medical team.

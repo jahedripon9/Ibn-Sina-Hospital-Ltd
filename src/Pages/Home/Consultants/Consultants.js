@@ -14,7 +14,7 @@ const Consultants = () => {
     return(
        
         <div className="my-5 ">
-            <h2 >Our <span className='text-decoration-underline'>Consultants</span></h2> 
+            <h1 className="text-success">Our <span className='text-decoration-underline'>Consultants</span></h1> 
             <div className="consultant-container mx-5 mb-4">
                 {
                     consultants.slice(0, 6).map(consultant => <Consultant

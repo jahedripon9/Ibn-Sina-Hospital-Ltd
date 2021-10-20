@@ -146,7 +146,7 @@ const UserAppointment = () => {
         </div>
         <div className="row mb-3 text-danger ">{error}</div>
         <button type="submit" className="btn btn-primary ">
-          {emailandPasswordLogin ? 'Login' : 'Register'}
+          {emailandPasswordLogin ? 'Submit' : 'Register'}
         </button> <br /> <br />
         <button type="button" onClick={handleResetPassword} className="btn btn-primary">Reset Password</button>
 

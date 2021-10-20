@@ -13,7 +13,7 @@ const AllConsultant = () => {
     },[])
     return(
         <div className='my-5'>
-            <h2 >Our <span className='text-decoration-underline'>Consultants</span></h2> 
+            <h2 className='my-5'>Our <span className='text-decoration-underline'>Consultants</span></h2> 
             <div className="consultant-container mx-5">
                 {
                     consultants.map(consultant => <Consultant

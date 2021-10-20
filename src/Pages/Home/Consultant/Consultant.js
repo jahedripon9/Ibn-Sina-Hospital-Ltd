@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 
 const Consultant = ({ consultant }) =>{
-    const {name, img, degrees, specialization, designation, contactNumber} = consultant;
+    const {name, img, degrees, specialization, designation} = consultant;
     return(
         <div className="data-container ">
             
@@ -14,8 +14,7 @@ const Consultant = ({ consultant }) =>{
                 <p className="card-text fw-bold text-danger">{degrees}</p> 
                 <p className="card-text">{specialization}</p>
                 <p className="card-text">{designation}</p>
-                
-                
+            
                 <Link to='/getappointment'><button href="#" className="btn btn-primary btn">Get An Appointment</button></Link> <br /><br />
                 <Link to={`/doctorinfo/${name},${degrees}`}><button href="#" className="btn btn-outline-primary btn">Doctor Bio</button></Link>
                 

@@ -6,7 +6,7 @@ import Footer from '../../Shared/Footer/Footer';
 
 
 const Login = () => {
-    const {singinGoogle} = useAuth();
+    const {singinGoogle,isLogin } = useAuth();
     const location = useLocation();
     
     const history = useHistory();
@@ -19,6 +19,25 @@ const Login = () => {
             history.push(redirect_uri);
         });
     }
+
+
+    const locationEmail = useLocation();
+    
+    const historyEmail = useHistory();
+    const redirect_urid = locationEmail.state?.from || '/home'
+
+    
+
+
+
+    const emailandPasswordLogin = ()=>{
+        isLogin()
+        .then(result => {
+            historyEmail.push(redirect_urid);
+        });
+    }
+
+
 
     return (
         <div className=' bg-info bg-opacity-10'>
@@ -36,7 +55,7 @@ const Login = () => {
                 <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
                 <input type="password" className="form-control mx-auto w-50" id="exampleInputPassword1"/>
             </div>
-            <button type="submit" className="btn btn-primary">Login</button> 
+            <button onClick={emailandPasswordLogin} type="submit" className="btn btn-primary">Login</button> 
             </form>
             <br />
             <Link to='/register'><button type="submit" className="btn btn-primary">Create new Account</button></Link>

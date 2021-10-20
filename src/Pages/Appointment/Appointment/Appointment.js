@@ -12,8 +12,8 @@ const Appointment = () => {
         .then(data => setConsultants(data));
     },[])
     return (
-        <div>
-        <h2>Our Consultants</h2>
+        <div className="my-3 ">
+        <h2 className="my-5 ">Our <span className='text-decoration-underline'>Consultants</span></h2> 
         <div className="consultant-container mx-5">
             {
                 consultants.map(consultant => <Consultant
