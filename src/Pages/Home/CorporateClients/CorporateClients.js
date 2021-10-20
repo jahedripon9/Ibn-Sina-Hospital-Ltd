@@ -9,7 +9,7 @@ const CorporateClients = () => {
             <Row>
                 <Col><hr />
                 <h2><span className='text-decoration-underline'>Corporate </span> Clients</h2> 
-                <CardGroup>
+                <CardGroup >
                         <Card>
                             <Card.Img className='w-75 mx-auto' variant="top" src="https://i.ibb.co/Sv6JYJ9/adsl.jpg" />
                         </Card>
@@ -38,8 +38,11 @@ const CorporateClients = () => {
                             <Card.Img className='w-75' variant="top" src="https://i.ibb.co/tXxVt5B/delta.jpg" />
                         </Card>
                         </CardGroup>
-                </Col>
-                <Link to='/ambulanceservice'><button className="btn btn-primary">Call For Ambulance</button></Link>
+                </Col>  
+                    <div className='mb-5'>
+                        <h1 className="mt-5 mb-4"> Call For <span className='text-decoration-underline '>Ambulance</span> </h1> <hr /> <img className='w-25' src="https://i.ibb.co/mSdVzbm/callforambulance.png" alt="" />
+                        <Link to='/ambulanceservice'><button className="btn btn-primary">Call For Ambulance</button></Link> 
+                    </div>
             </Row>
             </Container>
         </div>

@@ -115,7 +115,7 @@ const UserAppointment = () => {
     return (
         <div className="mx-5">
       <form onSubmit={handleRegistration}>
-        <h3 className="text-primary">Please {isLogin ? 'Login' : 'Register'}</h3>
+        <h3 className="text-primary mt-5">Please {isLogin ? 'Login' : 'Register'}</h3> <hr />
         {!isLogin && <div className="row mb-3">
           <label htmlFor="inputName" className="col-sm-2 col-form-label">Name</label>
           <div className="col-sm-10">
@@ -144,17 +144,15 @@ const UserAppointment = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-3 text-danger">{error}</div>
-        <button type="submit" className="btn btn-primary">
+        <div className="row mb-3 text-danger ">{error}</div>
+        <button type="submit" className="btn btn-primary ">
           {emailandPasswordLogin ? 'Login' : 'Register'}
-        </button>
-        <button type="button" onClick={handleResetPassword} className="btn btn-secondary btn-sm">Reset Password</button>
+        </button> <br /> <br />
+        <button type="button" onClick={handleResetPassword} className="btn btn-primary">Reset Password</button>
 
       </form>
-      <br /><br /><br />
-      <div>--------------------------------</div>
-      <br /><br /><br />
-      <button onClick={singinGoogle}>Google Sign In</button>
+      <br />
+      <button className="btn btn-outline-primary" onClick={singinGoogle}>Google Sign In</button> <br /><br />
     </div>
     );
 };

@@ -23,7 +23,7 @@ const Consultants = () => {
                     ></Consultant>)
                 }
             </div>
-            <Link to='/allconsultant' className="btn btn-success rounded-pill">See More Consultants</Link>
+            <Link to='/allconsultant' className="btn btn-success rounded-pill">See More Consultants</Link> 
         </div>
     )
 }

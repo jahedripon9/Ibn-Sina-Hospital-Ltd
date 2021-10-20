@@ -12,7 +12,10 @@ const GetAppointment = () => {
             <Container>
                 <Row>
                     <Col>
-            <h2 className="text-center mx-auto w-100 my-5">Doctors Appointment</h2>
+            
+            <h2 className="text-center mx-auto w-100 my-5"> <span className='text-decoration-underline'>Doctor's</span>  Appointment</h2>
+        
+
             <form className="ps-auto ms-auto" onSubmit={handleSubmit(onSubmit)}>
                 
                 <input className="w-50 text-center rounded-pill" placeholder="Name" {...register("example")} required/>

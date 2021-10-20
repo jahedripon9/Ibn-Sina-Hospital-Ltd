@@ -8,7 +8,7 @@ const AmbulanceService = () => {
             <Container fluid>
             <Row>
                 <Col>
-                <h2 className='mt-5'>Call For Ambulance</h2>
+                <h1 className="mt-5 mb-4"> Call For <span className='text-decoration-underline '>Ambulance</span> </h1>
                 <CardGroup className="mx-auto">
                     <Card>
                         <Card.Img className="w-100" variant="top" src="https://i.ibb.co/mSdVzbm/callforambulance.png" />
@@ -45,6 +45,7 @@ const AmbulanceService = () => {
                 </Col>
             </Row>
             </Container>
+            
         </div>
     );
 };

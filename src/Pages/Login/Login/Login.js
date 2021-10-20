@@ -25,7 +25,8 @@ const Login = () => {
         <Container>
         <Row>
           <Col>
-          <h2 className='mt-5'>Please Login</h2>
+          <h2 className='mt-5'>Please <span className='text-decoration-underline'>Login</span></h2>  <hr />
+
             <form className="mx-auto">
             <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
