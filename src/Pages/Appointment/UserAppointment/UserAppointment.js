@@ -119,7 +119,7 @@ const UserAppointment = () => {
         {!isLogin && <div className="row mb-3">
           <label htmlFor="inputName" className="col-sm-2 col-form-label">Name</label>
           <div className="col-sm-10">
-            <input type="text" onBlur={handleNameChange} className="form-control" id="inputName" placeholder="Your Name" />
+            <input type="text" onBlur={handleNameChange} className="form-control" id="inputName" placeholder="Your Name" required />
           </div>
         </div>}
         <div className="row mb-3">
@@ -137,9 +137,9 @@ const UserAppointment = () => {
         <div className="row mb-3">
           <div className="col-sm-10 offset-sm-2">
             <div className="form-check">
-              <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
+              <input onChange={toggleLogin} className="form-check-input " type="checkbox" id="gridCheck1" />
               <label className="form-check-label" htmlFor="gridCheck1">
-                Already Registered?
+              Already Registered?
               </label>
             </div>
           </div>
