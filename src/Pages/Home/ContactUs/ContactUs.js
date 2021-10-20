@@ -5,7 +5,7 @@ const ContactUs = () => {
     return (
         <div>
             <Container> <hr />
-            <h1>Contact Us</h1> <hr />
+            <h1><span className='text-decoration-underline '>Contact</span>  Us</h1> <hr />
                 <Row>
                     <Col>
                     <img className="w-75 rounded-1" src='https://i.ibb.co/NsX040S/Screenshot-2021-10-19-at-15-41-53.png' alt="" />

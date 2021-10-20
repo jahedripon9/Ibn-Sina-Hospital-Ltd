@@ -8,7 +8,7 @@ const CorporateClients = () => {
             <Container fluid="md">
             <Row>
                 <Col><hr />
-                <h2 className=''>Corporate Clients</h2> 
+                <h2><span className='text-decoration-underline'>Corporate </span> Clients</h2> 
                 <CardGroup>
                         <Card>
                             <Card.Img className='w-75 mx-auto' variant="top" src="https://i.ibb.co/Sv6JYJ9/adsl.jpg" />

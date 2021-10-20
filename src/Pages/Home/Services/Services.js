@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Services = () => {
     return (
         <div className="mx-5 my-5" id="services">
-            <h1>Our Services</h1>
+            <h1> Our <span className='text-decoration-underline' >Services</span></h1>
             <CardGroup>
                 <Card>
                     <Card.Img variant="top" src="https://i.ibb.co/HH9M9hL/findurconsultants.jpg" />

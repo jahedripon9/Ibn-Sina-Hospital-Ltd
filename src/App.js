@@ -62,24 +62,24 @@ function App() {
         <PrivateRoute exact path="/getappointment">
         <GetAppointment></GetAppointment>
         </PrivateRoute>
-        <PrivateRoute exact path="/ambulanceservice">
+        <Route exact path="/ambulanceservice">
         <AmbulanceService></AmbulanceService>
-        </PrivateRoute>
+        </Route>
         <Route exact path="/notifyappointment">
         <NotifyAppointment></NotifyAppointment>
         </Route>
         <Route exact path="/about">
         <About></About>
         </Route>
-        <Route exact path="/physiotherapy">
+        <PrivateRoute exact path="/physiotherapy">
         <Physiotherapy></Physiotherapy>
-        </Route>
-        <Route exact path="/dental">
+        </PrivateRoute>
+        <PrivateRoute exact path="/dental">
         <DentalCare></DentalCare>
-        </Route>
-        <Route exact path="/healthcheckup">
+        </PrivateRoute>
+        <PrivateRoute exact path="/healthcheckup">
         <HealthCheckup></HealthCheckup>
-        </Route>
+        </PrivateRoute>
         <Route exact path="/corporateclients">
         <CorporateClients></CorporateClients>
         </Route>

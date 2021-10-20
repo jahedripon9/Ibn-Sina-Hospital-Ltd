@@ -4,6 +4,7 @@ import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import Footer from '../../Shared/Footer/Footer';
 
+
 const Login = () => {
     const {singinGoogle} = useAuth();
     const location = useLocation();
