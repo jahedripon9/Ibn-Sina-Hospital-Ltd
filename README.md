@@ -5,15 +5,15 @@
 #Live Site: >> https://ibn-sina-hospital-limited.web.app/
 
 >>
->> Our Services: Create Service list of Ibn Sina Hospital Sylhet Limited, <<
+>> Our Services: Create Service list of Ibn Sina Hospital Sylhet Limited..
 
->> Our Consultants: Create Consultants Information, <<
+>> Our Consultants: Create Consultants Information..
 
->> Doctors Appointment: Create Doctors Appointment, ..<<
+>> Doctors Appointment: Create Doctors Appointment..
 
->> Signin & Registion Method: Email , Password & Google...<<
+>> Signin & Registion Method: Email , Password & Google..
 
->> Seation: About, Contact Us & Corporate Clients.. <<
+>> Seation: About, Contact Us & Corporate Clients.. 
 
 
  
