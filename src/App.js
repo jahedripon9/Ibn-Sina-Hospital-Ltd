@@ -1,13 +1,8 @@
-
 import * as React from "react";
 import {
-  Routes,
   Route,
-  Link,
-  useNavigate,
-  useLocation,
-  Navigate,
-  Outlet
+  Router,
+  Routes,
 } from "react-router-dom";
 import './App.css';
 import AuthProvider from "./context/AuthProvider";
@@ -37,6 +32,7 @@ function App() {
     <div className="App bg-info bg-opacity-10">
 
     <AuthProvider>
+    <Router>
     <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -46,20 +42,25 @@ function App() {
         <Route path="/appointment" element={<Appointment />} />
         <Route path="/register" element={<UserAppointment />} />
         <Route path="/register" element={<UserAppointment />} />
-        <PrivateRoute path="/doctorinfo/:itemid" element={<Doctorsinfo />} />
-        <PrivateRoute path="/getappointment" element={<GetAppointment />} />
+        <Route path="/doctorinfo/:itemid" element={<PrivateRoute><Doctorsinfo /> </PrivateRoute>} />
+        <Route path="/getappointment" element={<PrivateRoute><GetAppointment /></PrivateRoute>} />
         <Route path="/ambulanceservice" element={<AmbulanceService />} />
         <Route path="/notifyappointment" element={<NotifyAppointment />} />
         <Route path="/about" element={<About />} />
-        <PrivateRoute path="/physiotherapy" element={<Physiotherapy />} />
-        <PrivateRoute path="/dental" element={<DentalCare />} />
-        <PrivateRoute path="/healthcheckup" element={<HealthCheckup />} />
+        <Route path="/physiotherapy" element={<PrivateRoute><Physiotherapy /></PrivateRoute>} />
+        <PrivateRoute path="/dental" element={<PrivateRoute><DentalCare /></PrivateRoute>} />
+        <PrivateRoute path="/healthcheckup" element={<PrivateRoute><HealthCheckup /></PrivateRoute>} />
         <Route path="/corporateclients" element={<CorporateClients />} />
         <Route path="*" element={<NotFound />} /> 
       </Routes>
+      </Router>
     </AuthProvider>
     </div>
   );
+}
+// Something like that
+if(process.env.NODE_ENV === 'debug'){
+  
 }
 
 export default App;

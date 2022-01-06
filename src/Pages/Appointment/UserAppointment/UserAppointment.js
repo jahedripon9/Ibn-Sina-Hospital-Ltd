@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { getAuth, signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile, signOut,onAuthStateChanged } from "firebase/auth";
+import { getAuth,  createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile} from "firebase/auth";
 import useAuth from '../../../hooks/useAuth';
 import initializeAuth from '../../Login/Firebase/firebase.init';
-import Footer from '../../Shared/Footer/Footer';
-import { useHistory, useLocation } from 'react-router';
+// import Footer from '../../Shared/Footer/Footer';
+import { useNavigate, useLocation } from 'react-router';
 
 initializeAuth()
 const UserAppointment = () => {
@@ -19,7 +19,7 @@ const UserAppointment = () => {
 
     const location = useLocation();
     
-    const history = useHistory();
+    const history = useNavigate();
     const redirect_uri = location.state?.from || '/home'
 
     

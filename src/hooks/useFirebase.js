@@ -8,7 +8,7 @@ const useFirebase = () =>{
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
+    const [ setError] = useState('');
     const [isLogin, setIsLogin] = useState(false);
     const [user, setUser] = useState({})
     const auth = getAuth();

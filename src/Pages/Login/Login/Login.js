@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Link, useLocation, useHistory } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import Footer from '../../Shared/Footer/Footer';
 
@@ -9,7 +9,7 @@ const Login = () => {
     const {singinGoogle,isLogin } = useAuth();
     const location = useLocation();
     
-    const history = useHistory();
+    const history = useNavigate();
     const redirect_uri = location.state?.from || '/home'
 
     
@@ -23,7 +23,7 @@ const Login = () => {
 
     const locationEmail = useLocation();
     
-    const historyEmail = useHistory();
+    const historyEmail = useNavigate();
     const redirect_urid = locationEmail.state?.from || '/home'
 
     
