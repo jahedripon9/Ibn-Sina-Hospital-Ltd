@@ -15,8 +15,8 @@ const Consultant = ({ consultant }) =>{
                 <p className="card-text">{specialization}</p>
                 <p className="card-text">{designation}</p>
             
-                <Link to='/getappointment'><button href="#" className="btn btn-primary btn">Get An Appointment</button></Link> <br /><br />
-                <Link to={`/doctorinfo/${name},${degrees}`}><button href="#" className="btn btn-outline-primary btn">Doctor Bio</button></Link>
+                <Link to='/getappointment'><button className="btn btn-primary btn">Get An Appointment</button></Link> <br /><br />
+                <Link to={`/doctorinfo/${name},${degrees}`}><button className="btn btn-outline-primary btn">Doctor Bio</button></Link>
                 
             </div>
         </div>

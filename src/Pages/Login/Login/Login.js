@@ -9,21 +9,21 @@ const Login = () => {
     const {singinGoogle,isLogin } = useAuth();
     const location = useLocation();
     
-    const history = useNavigate();
+    const navigate = useNavigate();
     const redirect_uri = location.state?.from || '/home'
 
     
     const loginGoogle = ()=>{
         singinGoogle()
         .then(result => {
-            history.push(redirect_uri);
+            navigate.push(redirect_uri);
         });
     }
 
 
     const locationEmail = useLocation();
     
-    const historyEmail = useNavigate();
+    const navigateEmail = useNavigate();
     const redirect_urid = locationEmail.state?.from || '/home'
 
     
@@ -33,7 +33,7 @@ const Login = () => {
     const emailandPasswordLogin = ()=>{
         isLogin()
         .then(result => {
-            historyEmail.push(redirect_urid);
+            navigateEmail.push(redirect_urid);
         });
     }
 

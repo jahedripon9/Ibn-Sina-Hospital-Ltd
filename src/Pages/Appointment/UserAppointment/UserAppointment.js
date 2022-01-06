@@ -19,7 +19,7 @@ const UserAppointment = () => {
 
     const location = useLocation();
     
-    const history = useNavigate();
+    const navigate = useNavigate();
     const redirect_uri = location.state?.from || '/home'
 
     
@@ -29,7 +29,7 @@ const UserAppointment = () => {
     const emailandPasswordLogin = ()=>{
         isLogin()
         .then(result => {
-            history.push(redirect_uri);
+            navigate.push(redirect_uri);
         });
     }
 

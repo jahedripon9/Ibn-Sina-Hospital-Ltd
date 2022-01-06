@@ -24,9 +24,6 @@ import NotFound from "./Pages/NotFound/NotFound";
 import Physiotherapy from "./Pages/Physiotherapy/Physiotherapy";
 import Header from "./Pages/Shared/Header/Header";
 
-
-
-
 function App() {
   return (
     <div className="App bg-info bg-opacity-10">
@@ -35,32 +32,29 @@ function App() {
     <Router>
     <Header></Header>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/allconsultant" element={<AllConsultant />} />
-        <Route path="/appointment" element={<Appointment />} />
-        <Route path="/register" element={<UserAppointment />} />
-        <Route path="/register" element={<UserAppointment />} />
-        <Route path="/doctorinfo/:itemid" element={<PrivateRoute><Doctorsinfo /> </PrivateRoute>} />
-        <Route path="/getappointment" element={<PrivateRoute><GetAppointment /></PrivateRoute>} />
-        <Route path="/ambulanceservice" element={<AmbulanceService />} />
-        <Route path="/notifyappointment" element={<NotifyAppointment />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/physiotherapy" element={<PrivateRoute><Physiotherapy /></PrivateRoute>} />
-        <PrivateRoute path="/dental" element={<PrivateRoute><DentalCare /></PrivateRoute>} />
-        <PrivateRoute path="/healthcheckup" element={<PrivateRoute><HealthCheckup /></PrivateRoute>} />
-        <Route path="/corporateclients" element={<CorporateClients />} />
-        <Route path="*" element={<NotFound />} /> 
+        <Route path="/" element={<Home></Home> }></Route> 
+        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/allconsultant" element={<AllConsultant></AllConsultant>}></Route>
+        <Route path="/appointment" element={<Appointment></Appointment> }></Route>
+        <Route path="/register" element={<UserAppointment></UserAppointment>}></Route>
+        <Route path="/register" element={<UserAppointment></UserAppointment> }></Route>
+        <Route path="/doctorinfo/:itemid" element={<PrivateRoute><Doctorsinfo ></Doctorsinfo> </PrivateRoute>}></Route>
+        <Route path="/getappointment" element={<PrivateRoute><GetAppointment></GetAppointment> </PrivateRoute>}></Route>
+        <Route path="/ambulanceservice" element={<AmbulanceService></AmbulanceService> }></Route>
+        <Route path="/notifyappointment" element={<NotifyAppointment ></NotifyAppointment>}></Route>
+        <Route path="/about" element={<About></About> }></Route>
+        <Route path="/physiotherapy" element={<PrivateRoute><Physiotherapy></Physiotherapy> </PrivateRoute>}></Route>
+        <Route path="/dental" element={<PrivateRoute><DentalCare></DentalCare></PrivateRoute>}></Route>
+        <Route path="/healthcheckup" element={<PrivateRoute><HealthCheckup></HealthCheckup> </PrivateRoute>}></Route>
+        <Route path="/corporateclients" element={<CorporateClients></CorporateClients> } />
+        <Route path="*" element={<NotFound></NotFound>} /> 
       </Routes>
       </Router>
     </AuthProvider>
     </div>
   );
 }
-// Something like that
-if(process.env.NODE_ENV === 'debug'){
-  
-}
+
 
 export default App;
