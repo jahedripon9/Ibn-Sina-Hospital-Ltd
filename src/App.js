@@ -1,8 +1,13 @@
 
+import * as React from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
+  Link,
+  useNavigate,
+  useLocation,
+  Navigate,
+  Outlet
 } from "react-router-dom";
 import './App.css';
 import AuthProvider from "./context/AuthProvider";
@@ -32,62 +37,26 @@ function App() {
     <div className="App bg-info bg-opacity-10">
 
     <AuthProvider>
-    <Router>
     <Header></Header>
-      <Switch>
-        <Route exact path="/">
-        <Home></Home>
-        </Route>
-        <Route exact path="/home">
-        <Home></Home>
-        </Route>
-        <Route exact path="/login">
-        <Login></Login>
-        </Route>
-        <Route exact path="/allconsultant">
-        <AllConsultant></AllConsultant>
-        </Route>
-        <Route exact path="/appointment">
-        <Appointment></Appointment>
-        </Route>
-        <Route exact path='/register'>
-        <UserAppointment></UserAppointment>
-        </Route>
-        <Route exact path="/appointment">
-        <Appointment></Appointment>
-        </Route>
-        <PrivateRoute exact path="/doctorinfo/:itemid">
-        <Doctorsinfo></Doctorsinfo>
-        </PrivateRoute>
-        <PrivateRoute exact path="/getappointment">
-        <GetAppointment></GetAppointment>
-        </PrivateRoute>
-        <Route exact path="/ambulanceservice">
-        <AmbulanceService></AmbulanceService>
-        </Route>
-        <Route exact path="/notifyappointment">
-        <NotifyAppointment></NotifyAppointment>
-        </Route>
-        <Route exact path="/about">
-        <About></About>
-        </Route>
-        <PrivateRoute exact path="/physiotherapy">
-        <Physiotherapy></Physiotherapy>
-        </PrivateRoute>
-        <PrivateRoute exact path="/dental">
-        <DentalCare></DentalCare>
-        </PrivateRoute>
-        <PrivateRoute exact path="/healthcheckup">
-        <HealthCheckup></HealthCheckup>
-        </PrivateRoute>
-        <Route exact path="/corporateclients">
-        <CorporateClients></CorporateClients>
-        </Route>
-        <Route  path="*">
-        <NotFound></NotFound>
-        </Route>
-      </Switch>
-    </Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/allconsultant" element={<AllConsultant />} />
+        <Route path="/appointment" element={<Appointment />} />
+        <Route path="/register" element={<UserAppointment />} />
+        <Route path="/register" element={<UserAppointment />} />
+        <PrivateRoute path="/doctorinfo/:itemid" element={<Doctorsinfo />} />
+        <PrivateRoute path="/getappointment" element={<GetAppointment />} />
+        <Route path="/ambulanceservice" element={<AmbulanceService />} />
+        <Route path="/notifyappointment" element={<NotifyAppointment />} />
+        <Route path="/about" element={<About />} />
+        <PrivateRoute path="/physiotherapy" element={<Physiotherapy />} />
+        <PrivateRoute path="/dental" element={<DentalCare />} />
+        <PrivateRoute path="/healthcheckup" element={<HealthCheckup />} />
+        <Route path="/corporateclients" element={<CorporateClients />} />
+        <Route path="*" element={<NotFound />} /> 
+      </Routes>
     </AuthProvider>
     </div>
   );
