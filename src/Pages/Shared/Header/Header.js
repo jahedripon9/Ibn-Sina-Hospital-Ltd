@@ -31,7 +31,7 @@ const Header = () => {
                 <Nav.Link as={Link} to='/about' eventKey="link-1">About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href='/#services' eventKey="link-2">Services</Nav.Link>
+                <Nav.Link as={Link} to='/services' eventKey="link-2">Services</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link  as={Link} to='/allconsultant' eventKey="link-3">Consultants</Nav.Link>

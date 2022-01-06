@@ -18,6 +18,7 @@ import DentalCare from "./Pages/Home/DentalCare/DentalCare";
 import Doctorsinfo from "./Pages/Home/Doctors/Doctorsinfo/Doctorsinfo";
 import HealthCheckup from "./Pages/Home/HealthCheckup/HealthCheckup";
 import Home from "./Pages/Home/Home";
+import Services from "./Pages/Home/Services/Services";
 import Login from "./Pages/Login/Login/Login";
 import PrivateRoute from "./Pages/Login/PrivateRoute/PrivateRoute";
 import NotFound from "./Pages/NotFound/NotFound";
@@ -47,6 +48,7 @@ function App() {
         <Route path="/physiotherapy" element={<PrivateRoute><Physiotherapy></Physiotherapy> </PrivateRoute>}></Route>
         <Route path="/dental" element={<PrivateRoute><DentalCare></DentalCare></PrivateRoute>}></Route>
         <Route path="/healthcheckup" element={<PrivateRoute><HealthCheckup></HealthCheckup> </PrivateRoute>}></Route>
+        <Route path="/services" element={<PrivateRoute><Services></Services> </PrivateRoute>}></Route>
         <Route path="/corporateclients" element={<CorporateClients></CorporateClients> }></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route> 
       </Routes>
