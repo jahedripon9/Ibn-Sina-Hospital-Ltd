@@ -1,7 +1,7 @@
 import * as React from "react";
 import {
   Route,
-  Router,
+  BrowserRouter,
   Routes,
 } from "react-router-dom";
 import './App.css';
@@ -29,8 +29,8 @@ function App() {
     <div className="App bg-info bg-opacity-10">
 
     <AuthProvider>
-    <Router>
-    <Header></Header>
+    <BrowserRouter>
+    <Header />
       <Routes>
         <Route path="/" element={<Home></Home> }></Route> 
         <Route path="/home" element={<Home></Home>}></Route>
@@ -47,10 +47,10 @@ function App() {
         <Route path="/physiotherapy" element={<PrivateRoute><Physiotherapy></Physiotherapy> </PrivateRoute>}></Route>
         <Route path="/dental" element={<PrivateRoute><DentalCare></DentalCare></PrivateRoute>}></Route>
         <Route path="/healthcheckup" element={<PrivateRoute><HealthCheckup></HealthCheckup> </PrivateRoute>}></Route>
-        <Route path="/corporateclients" element={<CorporateClients></CorporateClients> } />
-        <Route path="*" element={<NotFound></NotFound>} /> 
+        <Route path="/corporateclients" element={<CorporateClients></CorporateClients> }></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route> 
       </Routes>
-      </Router>
+      </BrowserRouter>
     </AuthProvider>
     </div>
   );

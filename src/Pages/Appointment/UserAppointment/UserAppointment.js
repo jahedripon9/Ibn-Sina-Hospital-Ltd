@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { getAuth,  createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile} from "firebase/auth";
 import useAuth from '../../../hooks/useAuth';
 import initializeAuth from '../../Login/Firebase/firebase.init';
-// import Footer from '../../Shared/Footer/Footer';
+import Footer from '../../Shared/Footer/Footer';
 import { useNavigate, useLocation } from 'react-router';
 
 initializeAuth()
 const UserAppointment = () => {
     const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
-  const [isLogin, setIsLogin] = useState(false);
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
+    const [isLogin, setIsLogin] = useState(false);
     const {singinGoogle,  } = useAuth();
     const auth = getAuth();
 
